@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-
-
 import io
 import re
 
@@ -27,7 +25,7 @@ for line in open("indel_variants.txt",'r'):
       #print("dp",found)
   n = re.search("AF1=([0-9.]+)", line)
 
-  #
+  
   if n:
       found2 = n.groups(1)[0]
       #print("af1", found2)
