@@ -917,23 +917,23 @@ def store_in_db(chrs, workdir, path_to_sqlitedb, snp, analysis_ID, indel):
             if snp=="NO":
                 if indel =='samtools':
                     tableName = "TIS_" + str(analysis_ID) + "_indel" + indel + "_transcripts"
-                if indel=='dbSNP'
-                    tableName = "TIS_" + str(analysis_ID) + "_indelsamtools_indel" + indel + "_transcripts"
+                if indel=='samtools_dbSNP'
+                    tableName = "TIS_" + str(analysis_ID) + "_indelsamtools_indeldbSNP_transcripts"
 
                 else:
                     tableName = "TIS_" + str(analysis_ID) + "_" + "transcripts"
             if snp=='samtools':
                 if indel=="samtools":
                     tableName = "TIS_"+str(analysis_ID)+"_snpsamtools_indelsamtools_transcripts"
-                if indel=="dbSNP"
+                if indel=="samtools_dbSNP"
                     tableName ="TIS_"+str(analysis_ID)+"_snpsamtools_indelsamtools_indeldbSNP_transcripts"
                 else:
                     tableName ="TIS_"+str(analysis_ID)+"_snpsamtools_transcripts"
 
-            if snp=='dbSNP':
+            if snp=='samtools_dbSNP':
                 if indel=="samtools":
                     tableName = "TIS_"+str(analysis_ID)+"_snpsamtools_snpdbSNP_indelsamtools_transcripts"
-                if indel=="dbSNP"
+                if indel=="samtools_dbSNP"
                     tableName ="TIS_"+str(analysis_ID)+"_snpsamtools_snpdbSNP_indelsamtools_indeldbSNP_transcripts"
                 else:
                     tableName ="TIS_"+str(analysis_ID)+"_snpsamtools_snpdbSNP_transcripts"
