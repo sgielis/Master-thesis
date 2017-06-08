@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #
-# Create a unique index for a SNP, using the chromosome, location, reference base and alternative base.
+# Create a unique index for a SNP or INDEL, using the chromosome, location, reference base and alternative base.
 # Input = text file with at least 4 columns: chromosome name, position, reference base, alternative base
 # Extra columns will not influence the script, but the first four need to be in this order.
 # The index is built as follows:
