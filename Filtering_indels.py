@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#The desired columns of the indels are filtered out of the all_variants.txt file. 
 import io
 import re
 
