@@ -1,6 +1,6 @@
 # Master-thesis
 
-In this master thesis, the variant calling step was adapted in order to detect and collect INDEL information. The renewed script is called 'snp_indel_calling' . This script makes use of three other scripts that were adapted: 
+In this master thesis, the variant calling step was adapted in order to detect and collect INDEL information. The renewed script is called 'snp_indel_calling'. This script makes use of three other scripts that were adapted: 
 
 - Filtering_indels collects all the INDELs called by SAMtools
 
