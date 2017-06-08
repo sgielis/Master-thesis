@@ -2089,24 +2089,6 @@ def update_TIS_overview(analysis_id,snp, path_to_sqlitedb,indel):
     return
 
 
-################################# MAG WEG: #############################################
-
-
-
-#print('Getting the analysis IDs that need to be processed')
-#Get the analysis IDss that need to be processed
-# tis_id="1,2"
-# tis_id_list = []
-# if(tis_id=='all'):
-#     tis_id_list = get_all_tis_ids('SQLite/results.db')
-# elif(tis_id.isdigit()):
-#     tis_id_list.append(tis_id)
-# elif(bool(re.search(',',tis_id))):
-#     tis_id_list = re.split(',', tis_id)
-# else:
-#     print "Error: TIS IDs argument should be a number, a comma separated list of numbers or 'all'!"
-#     sys.exit()
-# #print(tis_id_list)
 
 
 #######Set Main##################
