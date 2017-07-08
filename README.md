@@ -7,9 +7,12 @@ The renewed variant calling script is called 'snp_indel_calling'. This script ma
 
 - Filtering_indels collects all the INDELs called by SAMtools. This script needs to be in the same directory as the snp_indel_calling script. 
 
-- filterSAMfile_INDEL collects INDELs from dbSNP that are present in the analyzed SAMfile. This file replaces the old filterSAMfile script and needs to be in the folder mentioned in the ——tooldir argument.
+- filterSAMfile_INDEL collects INDELs from dbSNP that are present in the analyzed SAMfile. This file replaces the old filterSAMfile script and needs to be in the folder mentioned in the --tooldir argument. Also the original filterSAMfile needs to be in this folder. 
 
-- snpIndexBuilder_new generates an index for every INDEL and SNP. This file replaces the old snpINDEXBuilder script and needs to be in the folder mentioned in the ——tooldir argument.
+- snpIndexBuilder_new generates an index for every INDEL and SNP. This file replaces the old snpINDEXBuilder script and needs to be in the folder mentioned in the --tooldir argument.
+
+- The original splitVCFaltRecords.pl also needs to be in the folder mentioned in the -- tooldir argument.
+
 
 In addition, the old assembly script is replaced with a new version called 'Assembly_new'. This script enables the insertion of SNPs and INDELs in the  transcript sequences. These sequences are also translated into protein sequences and stored in an SQLite table.
 
