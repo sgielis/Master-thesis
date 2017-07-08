@@ -14,7 +14,7 @@ The renewed variant calling script is called 'snp_indel_calling'. This script ma
 - The original splitVCFaltRecords.pl also needs to be in the folder mentioned in the -- tooldir argument.
 
 
-In addition, the old assembly script is replaced with a new version called 'Assembly_new'. This script enables the insertion of SNPs and INDELs in the  transcript sequences. These sequences are also translated into protein sequences and stored in an SQLite table.
+In addition, the old assembly script is replaced with a new version called 'Assembly_new'. This script enables the insertion of SNPs and INDELs in the  transcript sequences. These sequences are also translated into protein sequences and stored in an SQLite table. (It is possible that the name of this SQLite db needs to be adapted after running the script in order to be in agreement with consecutive scripts.)
 
 
 More information of the PROTEOFORMER pipeline is available at http://www.biobix.be/proteoformer/
