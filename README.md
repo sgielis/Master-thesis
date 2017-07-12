@@ -22,3 +22,4 @@ More information of the PROTEOFORMER pipeline is available at http://www.biobix.
 
 # Adaptations:
 The new Assembly script is adapted in order to include INDELs from COSMIC. This script is called Assembly_cosmic_indels.py.
+! The term cosmic in the command line represents the number of INDELs and/or SNPs that are incorporated in every transcript.
