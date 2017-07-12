@@ -10,7 +10,7 @@ Arguments:
     -t   | --tmp_folder						 Folder where temporary files are stored. (optional argument, default = workdir/tmp)
     -i   | --tis_id 						 List of the TIS IDs you want to analyze. (mandatory argument)
     -o   | --sqlite_out                      The SQLite database holding the output. (optional argument, default = sqlitedb = same as input SQLite DB)
-    -c   | --cosmic                          The maximum  number of INDELs from COSMIC you want to include (default=10)
+    -c   | --cosmic                          The maximum  number of INDELs or SNP from COSMIC you want to include in every transcript (default=10)
 '''
 
 
